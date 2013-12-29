@@ -79,9 +79,10 @@ function renderLayer(doc, mainDoc, layer, mLayer, folder) {
    var isVisible = true;
    var ret = ""
    
-   if((layer.bounds[0] - layer.bounds[1] == 0) || (layer.bounds[2] - layer.bounds[3] == 0)) {
-      return ret;
-   }
+   // commented out - it doesn't export partially out of the document layers 
+   //if((layer.bounds[0] - layer.bounds[1] == 0) || (layer.bounds[2] - layer.bounds[3] == 0)) {
+   //   return ret;
+   //}
    
    if(isVisible) {
       
