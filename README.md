@@ -14,9 +14,9 @@ HTML layout in just one click!
 Run
 -
 
-You only need farExporter.jsx, since it already contains a minified version of far.js (the library that actually does the resizing) that will be exported to a separate file.
+You only need `farExporter.jsx`, since it already contains a minified version of `far.js` (the library that actually does the resizing) that will be exported to a separate file.
 
-1. Create your layout in Adobe Photoshop. Each layer will be exported to a separate .psd file.
+1. Create your layout in Adobe Photoshop. Each layer will be exported to a separate .png file.
 
 2. Go to `File -> Scripts -> Browse...`
 
@@ -28,6 +28,11 @@ Demo
 -
 
 Check a tiny demo of an example output [here](http://geo8bit.github.io/projects/farJS/demo/)!
+
+Dependencies
+-
+
+`far.js` uses `jQuery` to select the document's elements.
 
 PS versions
 -
